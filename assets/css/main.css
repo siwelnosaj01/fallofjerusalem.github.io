@@ -3532,6 +3532,40 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
+	.signup-form {
+		display: inline;
+		width: 100%;
+		height: 400px;
+		font-size: 1rem;
+		line-height: 2rem;
+	}
+
+	.signup-form input {
+		align-content: center;
+		text-align: center;
+		width: 100%;
+		height: auto;
+		margin-bottom: 35px;
+		
+		font-size: 2rem;
+		line-height: 2rem;
+		
+	}
+
+	.signup-form label {
+		font-size: 1.4rem;
+		display: inline;
+		
+		margin-bottom: 125px;
+	}
+
+	#message {
+	font-size: 2rem;	
+	text-align: center;
+	}
+
+	
+
 /* Footer */
 
 	#footer {
