@@ -867,6 +867,7 @@
 	ul.actions {
 		@include vendor('display', 'flex');
 		cursor: default;
+		display: inline-block;
 		list-style: none;
 		margin-left: (_size(element-margin) * -0.5);
 		padding-left: 0;

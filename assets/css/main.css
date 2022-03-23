@@ -2561,6 +2561,7 @@ input, select, textarea {
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+			height: 1000px;
 		}
 
 			.image.fit img {
@@ -2827,6 +2828,7 @@ input, select, textarea {
 	input[type="reset"],
 	input[type="button"],
 	.button {
+		
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -2836,16 +2838,19 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		background-color: transparent;
+		display: block;
 		border-radius: 4px;
 		border: 0;
 		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
 		color: #ffffff !important;
 		cursor: pointer;
-		display: inline-block;
+		list-style-type: none;
 		font-weight: 300;
 		height: 3em;
 		line-height: 3em;
+		margin-top: 25px;
 		padding: 0 2.25em;
+		
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
@@ -3729,7 +3734,7 @@ input, select, textarea {
 						-webkit-justify-content: center;
 						-ms-justify-content: center;
 						justify-content: center;
-						width: 100%;
+						width: 50%;
 						margin-left: 0;
 					}
 
