@@ -132,6 +132,7 @@ input, select, textarea {
 	p {
 		margin: 0 0 2em 0;
 		font-size: 2rem;
+		line-height: normal;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -588,6 +589,10 @@ input, select, textarea {
 			top: 50%;
 			width: 2em;
 			z-index: -1;
+		}
+
+		.quote	{
+			font-size: 2rem;
 		}
 
 		body.landing:after {
@@ -2147,6 +2152,10 @@ input, select, textarea {
 							padding-top: 5em;
 						}
 
+						.quote {
+							font-size: 1rem;
+						}
+
 		}
 
 /* Section/Article */
@@ -2750,6 +2759,10 @@ input, select, textarea {
 						ul.actions:not(.fixed) li button.icon:before,
 						ul.actions:not(.fixed) li .button.icon:before {
 							margin-left: -0.5em;
+						}
+						p {
+							margin: 0 0 2em 0;
+							font-size: 1.3rem;
 						}
 
 		}
